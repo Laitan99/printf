@@ -1,5 +1,3 @@
-
-
 /*
  * File: _printf.c
  * Auth: Balogun Ibraheem

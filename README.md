@@ -302,9 +302,9 @@ Example main.c:
 
 int main(void)
 {
-	char *street = "Mission St.", *city = "San Francisco", *state = "CA";
+        char *street = "Mission St.", *city = "San Francisco", *state = "CA";
 
-	_printf("%d %s, %s, %s %d\n", 972, street, city, state, 94103);
+        _printf("%d %s, %s, %s %d\n", 972, street, city, state, 94103);
 }
 Output:
 
@@ -317,8 +317,8 @@ Example main.c:
 
 int main(void)
 {
-	_printf("%.2d + %.2d = %+.2d\n", 1, 2, 1 + 2);
-	_printf("%d - %d = %+d\n", 10, 20, 10 - 20);
+        _printf("%.2d + %.2d = %+.2d\n", 1, 2, 1 + 2);
+        _printf("%d - %d = %+d\n", 10, 20, 10 - 20);
 }
 Output:
 
@@ -333,8 +333,8 @@ Example main.c:
 
 int main(void)
 {
-	_printf("% -30ld -> LONG_MAX\n", LONG_MAX);
-	_printf("%-30ld -> LONG_MIN\n", LONG_MIN);
+        _printf("% -30ld -> LONG_MAX\n", LONG_MAX);
+        _printf("%-30ld -> LONG_MIN\n", LONG_MIN);
 }
 Output:
 
